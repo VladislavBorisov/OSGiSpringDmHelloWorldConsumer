@@ -16,7 +16,7 @@ public class HelloWorldConsumer implements ActionListener {
 
 		this.service = service;
 
-		timer = new Timer(1000, this);
+		timer = new Timer(5000, this);
 	}
 
 	public void startTimer() {
